@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+head{
+  background:
+}
 body {
   font-family: 'Raleway', sans-serif;
   padding-top: 3.5rem;
@@ -9,7 +12,8 @@ body {
 }
 
 
-h1{font-weight:700;color:rgba(255, 36, 36,1)}
+
+h1{font-weight:700; color:rgba(255, 36, 36,1)}
 
 h4{color:rgba(236, 153, 153,1);}
 h6{color:rgba(255, 36, 36,1);}
@@ -17,7 +21,6 @@ h6{color:rgba(255, 36, 36,1);}
 }
 /*lo que viene ahora es para editar el estilo del jumbotron, que es la entrada de la pagina*/
 .jumbotron{
-  background:  linear-gradient(to bottom, rgba(236,171,222,0.9) 0%,rgba(228,2171,236,0) 100%),url("https://buenavibra.es/wp-content/uploads/2015/10/cambio-climatico-2111657w640.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  color:rgba(236, 153, 153,1);
+
 }
