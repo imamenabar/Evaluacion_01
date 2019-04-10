@@ -4,9 +4,16 @@
 body {
   font-family: 'Raleway', sans-serif;
   padding-top: 3.5rem;
-  background:rgba(255,255,255,1);
-  color:rgba(,0,0,1);
+  background:rgba(236, 153, 153,1);
+  color:rgba(0,0,0,1);
 }
+
+
+h1{font-weight:700;color:rgba(255, 36, 36,1)}
+
+h4{color:rgba(236, 153, 153,1);}
+h6{color:rgba(255, 36, 36,1);}
+
 }
 /*lo que viene ahora es para editar el estilo del jumbotron, que es la entrada de la pagina*/
 .jumbotron{
