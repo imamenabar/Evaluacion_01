@@ -1,9 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-head{
-  background:
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+
+main {
+    color:rgba(236, 153, 153,1);
 }
+
 body {
   font-family: 'Raleway', sans-serif;
   padding-top: 3.5rem;
@@ -13,7 +16,9 @@ body {
 
 
 
-h1{font-weight:700; color:rgba(255, 36, 36,1)}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700; color:rgba(255, 36, 36,1)}
 
 h4{color:rgba(236, 153, 153,1);}
 h6{color:rgba(255, 36, 36,1);}
@@ -21,6 +26,6 @@ h6{color:rgba(255, 36, 36,1);}
 }
 /*lo que viene ahora es para editar el estilo del jumbotron, que es la entrada de la pagina*/
 .jumbotron{
-  color:rgba(236, 153, 153,1);
+  background-color: rgba(236, 153, 153,1);
 
 }
