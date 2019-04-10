@@ -5,45 +5,49 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- lo de antes significa q la pagina use todo el espacio disponible-->
-    <meta name=”description” content=”En esta pagina podrás ver distintas flores chilenas”>
+    <meta name=”description” content="En esta pagina podrás ver distintas flores chilenas">
       <!-- lo anterior es la descripción q sale en los buscadores-->
     <meta name=”keywords” content=”flor, chile, flora,” />
-      <!-- lo anterior es los metadatos para palabras clave de la pagina web-->
-
-      <!-- ahora viene lo de open graph-->
-      <meta property="og:type" content="article">
-  <meta property="og:title" content="Flores Chilenas">
-  <meta property="og:image" content="https://buenavibra.es/wp-content/uploads/2015/10/cambio-climatico-2111657w640.jpg">  <!--este link se cambia x el de la foto-->
-  <meta property="og:description" content="En esta pagina podrás ver distintas flores chilenas">
-
-  <!-- ahora viene lo de twitter-->
-  <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:creator" content="@Manz">
-<meta property="twitter:title" content="Título">
-<meta property="twitter:description" content="Descripción">
-<meta property="twitter:image:src" content="URL_img.jpg">
+  <meta name="image" content="https://68.media.tumblr.com/1566a17c86a4753b6d61d3107ebc47f2/tumblr_owtatnbEfP1s3qlsno1_540.png">
+  <!-- Schema.org for Google -->
+  <meta itemprop="name" content="Flores.Chilenas">
+  <meta itemprop="description" content="En esta pagina podrás ver distintas flores chilenas">
+  <meta itemprop="image" content="https://buenavibra.es/wp-content/uploads/2015/10/cambio-climatico-2111657w640.jpg">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary"> <!-- no cambiar este-->
+  <meta name="twitter:title" content="Flores.Chilenas">
+  <meta name="twitter:description" content="En esta pagina podrás ver distintas flores chilenas">
+  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+  <meta name="og:title" content="Flores.Chilenas">
+  <meta name="og:description" content="En esta pagina podrás ver distintas flores chilenas">
+  <meta name="og:image" content="https://buenavibra.es/wp-content/uploads/2015/10/cambio-climatico-2111657w640.jpg">
+  <meta name="og:url" content="https://buenavibra.es/wp-content/uploads/2015/10/cambio-climatico-2111657w640.jpg">
+  <meta name="og:site_name" content="Flores.Chilenas">
+  <meta name="og:locale" content="es_CL">
+  <meta name="og:type" content="website">
 
 <!-- ahora viene como poner el favicon-->
-  <link  rel="icon"   href="media/favicon.png" type="image/png">
+<link  rel="icon"   href="media/favicon.png" type="image/png">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Bootstrap core CSS -->
-<link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Mi CSS, (se pone el de bootstrap q es el por defecto y tambien se pone el mio de la hoja de estilo para hacer cambios del bootstrap y asi se complementes los estilos) -->
+      <link rel="stylesheet" href="estilo.css">
 <title>Flores.Chilenas</title>
 
   </head>
   <body>
     <header>
   <div class="collapse bg-dark" id="navbarHeader">
+
     <div class="container">
       <div class="row">
         <div class="col-sm-8 col-md-7 py-4">
-          <h4 class="text-white">About</h4>
-          <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+          <h4 class="text-white">Flores.Chilenas</h4>
+          <p class="text-muted">La flora de Chile es variada y cuenta con un gran número de especies endémicas debido a la especial condición geográfica del país que se extiende desde Bolivia y Perú por el norte hasta el paso Drake por el sur; entre la cordillera de los Andes, que lo separa de Argentina, por el este y el océano Pacífico por el oeste. Ello convierte el territorio de la flora chilena en una larga y angosta faja de tierra.</p>
         </div>
         <div class="col-sm-4 offset-md-1 py-4">
-          <h4 class="text-white">Contact</h4>
+          <h4 class="text-red">Contact</h4>
           <ul class="list-unstyled">
             <li><a href="#" class="text-white">Follow on Twitter</a></li>
             <li><a href="#" class="text-white">Like on Facebook</a></li>
@@ -59,7 +63,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
         <strong>Album</strong>
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
@@ -70,11 +74,10 @@
 
   <section class="jumbotron text-center">
     <div class="container">
-      <h1 class="jumbotron-heading">Album example</h1>
-      <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+      <h1 class="jumbotron-heading">Flores Chilenas</h1>
+      <p class="lead text-muted">Algunas flores que se encuentran en Chile</p>
       <p>
-        <a href="#" class="btn btn-primary my-2">Main call to action</a>
-        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+
       </p>
     </div>
   </section>
